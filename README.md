@@ -15,32 +15,31 @@ The two-way mirror provides both transparency and reflectiveness, allowing a dig
 
 🖼 Figure - Hardware Architecture
 ![Hardware Architecture](/hardware_Architecture.png)
-4.1.2 Raspberry Pi
+ Raspberry Pi
 The Raspberry Pi Model 3B is used, featuring:
 ✔️ 64-bit Quad-Core ARM Cortex-A1 Processor
 ✔️ 40 GPIO Pins
 ✔️ SD Card Slot (used as a hard disk)
 ✔️ USB, Ethernet, Wi-Fi, HDMI, and Camera Serial Interface
 
-🖼 Figure  - Raspberry Pi Model 3B
 
-4.1.3 Speaker & Camera
+ Speaker & Camera
 Camera: 12MP camera for emotion detection
 
 Speaker: Plays Quranic verses and guides breathing exercises
 
-4.1.4 Other Components
+ Other Components
 SD Card: 32GB (stores OpenCV, TensorFlow, OS)
 
 HDMI Cable: Connects Raspberry Pi to LCD
 
 Power Cable: 5V USB Charger
 
-💻 4.2 Software Architecture
+💻 Software Architecture
 The software uses computer vision (OpenCV) and deep learning to train emotion recognition models.
 
 🖼 Figure - Software Architecture
-
+![Software Architecture](/Sofware_Architecture.png)
  Dataset
 Primary Data: 270 facial expression images (happy, sad, angry)
 
@@ -55,10 +54,9 @@ Real-Time Emotion Detection
 If a user is sad ➝ Quranic verse is displayed & read aloud
 If a user is angry ➝ Breathing exercises are shown
 
-🖼 Figure  - UML Diagram: Class Diagram of ResolDepMirror
 
 ⚙️ Functionality of ResolDepMirror
-4.3.1 Sad Mood Module
+ Sad Mood Module
 ✔️ Uses Cognitive Behavioral Therapy (CBT) principles
 ✔️ Displays motivational Quranic verses using Tkinter (GUI)
 ✔️ Speaks the verse using Google Text-To-Speech (gTTs API)
@@ -66,8 +64,9 @@ If a user is angry ➝ Breathing exercises are shown
  Angry Mood Module
 ✔️ Guides breathing exercises through text & voice
 
-🖼 Figure 4.6 - ResolDepMirror Functionality
+🖼 Figure  - ResolDepMirror Functionality
 
+![Functionality](/Detail_function_of_smart_mirror.png)
 📌 4.4 Summary
 Hardware: Mirror, LCD, Raspberry Pi, Camera, Speaker
 
