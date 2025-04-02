@@ -14,7 +14,7 @@ Mirror and LCD Screen
 The two-way mirror provides both transparency and reflectiveness, allowing a digital interface while hiding the underlying hardware. The LCD screen is enclosed inside a wooden box for a seamless appearance.
 
 🖼 Figure - Hardware Architecture
-
+![Hardware Architecture](https://raw.githubusercontent.com/username/repository/main/hardware_architecture.png)
 4.1.2 Raspberry Pi
 The Raspberry Pi Model 3B is used, featuring:
 ✔️ 64-bit Quad-Core ARM Cortex-A1 Processor
